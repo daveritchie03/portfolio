@@ -5,6 +5,7 @@ export const personal = {
   tagline: "Building scalable Salesforce ecosystems and full-stack products that ship.",
   email: "hello@davenalluri.com",
   linkedin: "https://www.linkedin.com/in/dave-nalluri/",
+  github: "https://github.com/daveritchie03",
   summary:
     "I'm a Senior Software Engineer with 6+ years of experience designing scalable Salesforce ecosystems and full-stack systems. I specialise in Salesforce architecture, Apex, and LWC, while staying hands-on with modern web technologies. I thrive at converting complex business problems into robust technical architectures — from ideation to production.",
 };
