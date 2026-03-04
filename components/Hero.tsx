@@ -4,7 +4,6 @@ import { personal } from "@/lib/data";
 export default function Hero() {
   return (
     <section className="hero-bg relative min-h-screen flex flex-col items-center justify-center text-center px-6 overflow-hidden">
-      {/* Subtle grid overlay */}
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
@@ -15,29 +14,24 @@ export default function Hero() {
       />
 
       <div className="relative z-10 max-w-3xl mx-auto">
-        {/* Label */}
         <p className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-[#6366f1] mb-6">
           <span className="inline-block w-6 h-px bg-[#6366f1]" />
           Available for Projects
           <span className="inline-block w-6 h-px bg-[#6366f1]" />
         </p>
 
-        {/* Name */}
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-[#f1f5f9] mb-4 leading-none">
           {personal.name}
         </h1>
 
-        {/* Title */}
         <p className="text-xl md:text-2xl font-medium text-[#6366f1] mb-6">
           {personal.title}
         </p>
 
-        {/* Tagline */}
         <p className="text-base md:text-lg text-[#94a3b8] max-w-xl mx-auto mb-10 leading-relaxed">
           {personal.tagline}
         </p>
 
-        {/* CTAs */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
             href="#projects"
@@ -64,7 +58,6 @@ export default function Hero() {
           </a>
         </div>
 
-        {/* Salesforce certs row */}
         <div className="mt-14 flex flex-wrap items-center justify-center gap-3">
           {["Platform Developer I", "App Builder", "Administrator"].map((cert) => (
             <span
@@ -80,7 +73,6 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-[#334155]">
         <span className="text-xs uppercase tracking-widest">Scroll</span>
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="animate-bounce">

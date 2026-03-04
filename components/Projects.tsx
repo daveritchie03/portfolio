@@ -10,7 +10,7 @@ export default function Projects() {
         <h2 className="text-3xl md:text-4xl font-bold text-[#f1f5f9] mb-4">
           Things I&apos;ve shipped
         </h2>
-        <p className="text-[#94a3b8] mb-12 max-w-xl">
+        <p className="text-[#94a3b8] mb-8 max-w-xl">
           Marketing sites built with Next.js — crafted to reflect each brand&apos;s identity and reach their audience effectively.
         </p>
 
@@ -23,10 +23,8 @@ export default function Projects() {
               rel="noopener noreferrer"
               className="group block p-6 rounded-xl border border-[#1e1e2e] bg-[#12121a] hover:border-[#6366f1]/50 hover:-translate-y-1 transition-all duration-200 cursor-pointer"
             >
-              {/* Top accent bar */}
               <div className="w-8 h-0.5 bg-[#6366f1] mb-5 group-hover:w-16 transition-all duration-300" />
 
-              {/* Tags */}
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.tags.map((tag) => (
                   <span
@@ -38,17 +36,14 @@ export default function Projects() {
                 ))}
               </div>
 
-              {/* Title */}
               <h3 className="text-xl font-bold text-[#f1f5f9] mb-3 group-hover:text-[#818cf8] transition-colors">
                 {project.name}
               </h3>
 
-              {/* Description */}
               <p className="text-sm text-[#94a3b8] leading-relaxed mb-6">
                 {project.description}
               </p>
 
-              {/* Link row */}
               <div className="flex items-center gap-1.5 text-sm font-medium text-[#6366f1] group-hover:text-[#818cf8] transition-colors mt-auto">
                 <span>{project.url.replace("https://", "")}</span>
                 <svg

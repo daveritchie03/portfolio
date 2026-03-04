@@ -7,7 +7,7 @@ export default function Education() {
         <p className="text-xs font-semibold uppercase tracking-widest text-[#6366f1] mb-3">
           Education
         </p>
-        <h2 className="text-3xl md:text-4xl font-bold text-[#f1f5f9] mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-[#f1f5f9] mb-8">
           Academic background
         </h2>
 

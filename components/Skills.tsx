@@ -21,7 +21,7 @@ export default function Skills() {
         <p className="text-xs font-semibold uppercase tracking-widest text-[#6366f1] mb-3">
           Skills
         </p>
-        <h2 className="text-3xl md:text-4xl font-bold text-[#f1f5f9] mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-[#f1f5f9] mb-8">
           What I work with
         </h2>
 

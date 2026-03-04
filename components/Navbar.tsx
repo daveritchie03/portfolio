@@ -36,7 +36,6 @@ export default function Navbar() {
       }`}
     >
       <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        {/* Logo */}
         <a
           href="#"
           onClick={(e) => {
@@ -48,7 +47,6 @@ export default function Navbar() {
           {personal.name}
         </a>
 
-        {/* Desktop links */}
         <ul className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <li key={link.href}>
@@ -62,7 +60,6 @@ export default function Navbar() {
           ))}
         </ul>
 
-        {/* Mobile hamburger */}
         <button
           className="md:hidden text-[#94a3b8] hover:text-[#f1f5f9] transition-colors p-1"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -82,7 +79,6 @@ export default function Navbar() {
         </button>
       </nav>
 
-      {/* Mobile menu */}
       {menuOpen && (
         <div className="md:hidden bg-[#12121a] border-b border-[#1e1e2e] px-6 py-4">
           <ul className="flex flex-col gap-4">
